@@ -1,6 +1,7 @@
 :root {
   --primary-color: #ffffff;
   --default-font-family: "Nunito", sans-serif;
+  --default-font-weight: bold;
 }
 h1,
 h2,
@@ -10,15 +11,25 @@ h5,
 h6 {
   text-align: center;
   font-family: var(--font-family);
-  font-weight: bold;
+  font-weight: var(--default-font-weight);
   color: var(--primary-color);
 }
 h1 {
   font-size: 72px;
   line-height: 98px;
 }
+p {
+  font-size: 28px;
+  font-weight: var(--default-font-weight);
+}
+img {
+  max-width: 560px;
+  max-height: 350px;
+}
 .hero {
-  background-image: url("/images/overlay\ \(1\).png");
+  background-image: url("/images/overlay.png");
+  background-repeat: no-repeat;
+  background-size: cover;
   margin-top: 100px;
   padding: 100px 20px;
 }
