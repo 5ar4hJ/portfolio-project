@@ -1,5 +1,30 @@
-body {
-  background-color: bisque;
-  font-family: "Nunito", sans-serif;
+:root {
+  --primary-color: #ffffff;
+  --default-font-family: "Nunito", sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-align: center;
+  font-family: var(--font-family);
   font-weight: bold;
+  color: var(--primary-color);
+}
+h1 {
+  font-size: 72px;
+  line-height: 98px;
+}
+.hero {
+  background-image: url("/images/overlay\ \(1\).png");
+  margin-top: 100px;
+  padding: 100px 20px;
+}
+.hero p {
+  color: var(--primary-color);
+  font-size: 24px;
+  line-height: 70px;
+  text-align: center;
 }
