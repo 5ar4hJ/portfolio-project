@@ -1,7 +1,11 @@
 :root {
   --primary-color: #ffffff;
+  --secondary-color: #272142;
   --default-font-family: "Nunito", sans-serif;
   --default-font-weight: bold;
+}
+body {
+  color: var(--secondary-color);
 }
 h1,
 h2,
@@ -25,6 +29,21 @@ p {
 img {
   max-width: 560px;
   max-height: 350px;
+}
+.container-fluid {
+  display: flex;
+  justify-content: end;
+}
+.navbar-brand {
+  color: var(--secondary-color);
+  font-weight: var(--default-font-weight);
+}
+.navbar-nav {
+  font-size: 16px;
+  font-weight: var(--default-font-weight);
+}
+.nav-link {
+  color: var(--secondary-color);
 }
 .hero {
   background-image: url("/images/overlay.png");
@@ -54,4 +73,39 @@ img {
 .copyright {
   font-size: 16px;
   font-weight: normal;
+}
+.about-section h1,
+h2,
+h3 {
+  color: var(--secondary-color);
+}
+.about-me {
+  font-size: 72px;
+  margin: 40px, auto;
+  padding: 80px;
+}
+.about-section p {
+  font-size: 16px;
+  font-weight: normal;
+}
+.about-content {
+  padding: 0 150px;
+}
+.about-section-me h2 {
+  font-size: 64px;
+  padding: 34px 0;
+}
+.about-section-me p {
+  font-size: 18px;
+}
+.about-follow {
+  font-weight: var(--default-font-weight);
+}
+.about-favorites {
+  font-size: 36px;
+  padding-top: 95px;
+  padding-bottom: 25px;
+}
+.about-section h3 {
+  font-size: 24px;
 }
