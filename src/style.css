@@ -16,12 +16,9 @@ h6 {
   text-align: center;
   font-family: var(--font-family);
   font-weight: var(--default-font-weight);
-  color: var(--primary-color);
+  color: var(--secondary-color);
 }
-h1 {
-  font-size: 72px;
-  line-height: 98px;
-}
+
 p {
   font-size: 28px;
   font-weight: var(--default-font-weight);
@@ -30,7 +27,7 @@ img {
   max-width: 560px;
   max-height: 350px;
 }
-.container-fluid {
+.container {
   display: flex;
   justify-content: end;
 }
@@ -51,6 +48,11 @@ img {
   background-size: cover;
   margin-top: 100px;
   padding: 100px 20px;
+}
+.hero h1 {
+  font-size: 72px;
+  line-height: 98px;
+  color: var(--primary-color);
 }
 .hero p {
   color: var(--primary-color);
@@ -79,24 +81,24 @@ h2,
 h3 {
   color: var(--secondary-color);
 }
-.about-me {
+.opening-title {
   font-size: 72px;
   margin: 40px, auto;
   padding: 80px;
 }
-.about-section p {
-  font-size: 16px;
-  font-weight: normal;
-}
 .about-content {
   padding: 0 150px;
 }
-.about-section-me h2 {
+.content h2 {
   font-size: 64px;
   padding: 34px 0;
 }
-.about-section-me p {
+.content p {
   font-size: 18px;
+  font-weight: normal;
+}
+.content h5 {
+  font-weight: bolder;
 }
 .about-follow {
   font-weight: var(--default-font-weight);
@@ -106,6 +108,25 @@ h3 {
   padding-top: 95px;
   padding-bottom: 25px;
 }
+.recipe-categories p {
+  font-size: 16px;
+  font-weight: normal;
+}
 .about-section h3 {
   font-size: 24px;
+}
+.list-group-item {
+  border-bottom: 1px dotted aquamarine;
+  font-size: 18px;
+}
+.col-md-6 h5 {
+  border-bottom: 2px dotted aquamarine;
+  padding: 10px 0;
+}
+.method-instructions h6 {
+  color: #f65282;
+  text-align: left;
+}
+.container h2 {
+  font-size: 36px;
 }
