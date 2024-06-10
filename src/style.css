@@ -27,10 +27,6 @@ img {
   max-width: 560px;
   max-height: 350px;
 }
-.container {
-  display: flex;
-  justify-content: end;
-}
 .navbar-brand {
   color: var(--secondary-color);
   font-weight: var(--default-font-weight);
@@ -127,6 +123,9 @@ h3 {
   color: #f65282;
   text-align: left;
 }
-.container h2 {
+.recipe-page-pic {
+  text-align: end;
+}
+.recipe-container h2 {
   font-size: 36px;
 }
