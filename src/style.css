@@ -82,22 +82,13 @@ h3 {
   margin: 40px, auto;
   padding: 80px;
 }
-.about-content {
-  padding: 0 150px;
-}
 .content h2 {
   font-size: 64px;
-  padding: 34px 0;
 }
 .content p {
   font-size: 18px;
   font-weight: normal;
-}
-.content h5 {
-  font-weight: bolder;
-}
-.about-follow {
-  font-weight: var(--default-font-weight);
+  padding: 0 25% 5% 0;
 }
 .about-favorites {
   font-size: 36px;
@@ -121,11 +112,13 @@ h3 {
 }
 .method-instructions h6 {
   color: #f65282;
-  text-align: left;
 }
 .recipe-page-pic {
   padding-left: 19%;
 }
 .recipe-container h2 {
   font-size: 36px;
+}
+.about-contact {
+  color: #662eed;
 }
