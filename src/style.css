@@ -124,7 +124,7 @@ h3 {
   text-align: left;
 }
 .recipe-page-pic {
-  text-align: end;
+  padding-left: 19%;
 }
 .recipe-container h2 {
   font-size: 36px;
