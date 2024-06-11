@@ -27,16 +27,14 @@ img {
   max-width: 560px;
   max-height: 350px;
 }
-.navbar-brand {
+.navbar-brand,
+.nav-link,
+.navbar-nav {
   color: var(--secondary-color);
   font-weight: var(--default-font-weight);
 }
 .navbar-nav {
   font-size: 16px;
-  font-weight: var(--default-font-weight);
-}
-.nav-link {
-  color: var(--secondary-color);
 }
 .hero {
   background-image: url("/images/overlay.png");
@@ -119,6 +117,7 @@ h3 {
 .recipe-container h2 {
   font-size: 36px;
 }
-.about-contact {
-  color: #662eed;
+.about-contact,
+.active {
+  color: #662eed !important;
 }
