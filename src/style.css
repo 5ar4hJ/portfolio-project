@@ -27,6 +27,9 @@ img {
   max-width: 560px;
   max-height: 350px;
 }
+a {
+  text-decoration: none;
+}
 .navbar-brand,
 .nav-link,
 .navbar-nav {
