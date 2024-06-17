@@ -91,6 +91,9 @@ h3 {
   font-weight: normal;
   padding: 0 25% 5% 0;
 }
+.me-pic {
+  border-radius: 8px;
+}
 .about-favorites {
   font-size: 36px;
   padding-top: 95px;
