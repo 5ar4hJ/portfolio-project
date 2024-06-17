@@ -93,6 +93,7 @@ h3 {
 }
 .me-pic {
   border-radius: 8px;
+  max-height: 450px;
 }
 .about-favorites {
   font-size: 36px;
